@@ -31,7 +31,7 @@
   
 </header>
 <style>body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Helvetica, sans-serif;
     margin: 0;
   }
   
@@ -57,7 +57,7 @@
   .about-section {
     padding: 50px;
     text-align: center;
-    background-color: pink;
+    background-color: rgb(245, 212, 217);
     color: whitebr;
   }
   
@@ -81,7 +81,7 @@
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: brown;
+    background-color: rgb(203, 130, 130);
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -171,13 +171,42 @@
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     // Add an event listener to the "About Us" link
-    document.querySelector('a[href="index.html"]').addEventListener('click', function(event) {
+    document.querySelector('a[href="about.html"]').addEventListener('click', function(event) {
+      // Prevent the default action of the link
+      event.preventDefault();
+      // Navigate to about.html
+      window.location.href = 'about.html';
+      
+    });
+  
+   // Add an event listener to the "index" link
+   document.querySelector('a[href="index.html"]').addEventListener('click', function(event) {
       // Prevent the default action of the link
       event.preventDefault();
       // Navigate to about.html
       window.location.href = 'index.html';
+      
     });
+  
+    // Add an event listener to the "cats" link
+    document.querySelector('a[href="cats.html"]').addEventListener('click', function(event) {
+      // Prevent the default action of the link
+      event.preventDefault();
+      // Navigate to about.html
+      window.location.href = 'cats.html';
+      
+    });
+  
+     // Add an event listener to the "menu" link
+     document.querySelector('a[href="menu.html"]').addEventListener('click', function(event) {
+      // Prevent the default action of the link
+      event.preventDefault();
+      // Navigate to about.html
+      window.location.href = 'menu.html';
+      
+    });
+  
   </script>
-
+  
 </body>
 </html>

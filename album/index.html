@@ -106,8 +106,10 @@
 <main>
     
     <style>
+
+      
         body {
-            font-family: Arial, sans-serif;
+            font-family: Cambria, sans-serif;
             /* background-image: url("./images/pexels-lawrence-suzara-1581554.jpg");
             background-size: contain; */
             margin: 0;
@@ -118,7 +120,7 @@
 
         h1 {
             text-align: center;
-            color: white;
+            color: rgb(53, 18, 18);
         }
 
         .intro-container{
@@ -187,6 +189,44 @@
   </div>
 </footer>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Add an event listener to the "About Us" link
+  document.querySelector('a[href="about.html"]').addEventListener('click', function(event) {
+    // Prevent the default action of the link
+    event.preventDefault();
+    // Navigate to about.html
+    window.location.href = 'about.html';
+    
+  });
+
+ // Add an event listener to the "index" link
+ document.querySelector('a[href="index.html"]').addEventListener('click', function(event) {
+    // Prevent the default action of the link
+    event.preventDefault();
+    // Navigate to about.html
+    window.location.href = 'index.html';
+    
+  });
+
+  // Add an event listener to the "cats" link
+  document.querySelector('a[href="cats.html"]').addEventListener('click', function(event) {
+    // Prevent the default action of the link
+    event.preventDefault();
+    // Navigate to about.html
+    window.location.href = 'cats.html';
+    
+  });
+
+   // Add an event listener to the "menu" link
+   document.querySelector('a[href="menu.html"]').addEventListener('click', function(event) {
+    // Prevent the default action of the link
+    event.preventDefault();
+    // Navigate to about.html
+    window.location.href = 'menu.html';
+    
+  });
+
+</script>
 
     </body>
 </html>
