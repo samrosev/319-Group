@@ -16,33 +16,23 @@
 
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./catsStyle.css">
 
   <div class="navbar navbar-dark bg-dark shadow-sm">
    
     <nav class="nav">
-      <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <a class="nav-link active" href="index.html">Home</a>
       <a class="nav-link active" href="menu.html">Menu</a>
-      <a class="nav-link active" href="cats.html">Our Cats</a>
-      <a class="nav-link" href="about.html">About Us</a> <!-- Add this line for About Us page -->
+      <a class="nav-link active" href="about.html">About Us</a>
     </nav>
   </div>
   
 </header>
-
   </head>
   <body>
 
     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
-              id="bd-theme"
-              type="button"
-              aria-expanded="false"
-              data-bs-toggle="dropdown"
-              aria-label="Toggle theme (auto)">
-        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
-        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-      </button>
+
       <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
         <li>
           <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
@@ -71,7 +61,7 @@
     
 <header data-bs-theme="dark">
   <div class="collapse text-bg-dark" id="navbarHeader">
-    <div class="container">
+
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
           <h4>Who Are We?</h4>
@@ -89,13 +79,14 @@
     </div>
   </div>
   <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container">
+
       <a href="#" class="navbar-brand d-flex align-items-center">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> -->
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cup-hot-fill" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6zM13 12.5a2 2 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5"/>
-          <path d="m4.4.8-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 3.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 6.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 9.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8"/>
-      </svg>
-      <strong>Whiskers and Brews</strong>
+            <path fill-rule="evenodd" d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6zM13 12.5a2 2 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5"/>
+            <path d="m4.4.8-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 3.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 6.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 9.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8"/>
+        </svg>
+        <strong>Whiskers and Brews</strong>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -104,109 +95,114 @@
   </div>
 </header>
 
-<div class="image-container">
-  <img src="./images/index1.jpg" alt="Image 1">
-  <img src="./images/index2.jpg" alt="Image 2">
-  <img src="./images/index3.jpg" alt="Image 3">
-</div>
-
 <main>
-    
+        
     <style>
-
-      
         body {
             font-family: Cambria, sans-serif;
-            /* background-image: url("./images/pexels-lawrence-suzara-1581554.jpg");
-            background-size: contain; */
             margin: 0;
             padding: 0;
-            height: 100%;
-            width: 100%
+        }
+
+        .step{
+          border: 1px solid #ccc;
         }
 
         h1 {
             text-align: center;
-            color: rgb(53, 18, 18);
+            color: #333;
         }
 
-        .intro-container{
-          background-image: url("./images/pexels-lawrence-suzara-1581554.jpg");
-          background-size: cover;
-          position: sticky;
-          display: block;
-          flex-direction: row;
-          justify-content: flex-start;
-          min-height: 45vh;
-          width: auto;
+        .button{
+            border: none;
+            outline: 0;
+            display: inline-block;
+            border-radius:8px;
+            padding: 8px;
+            color: white;
+            background-color: pink;
+            text-align: center;
+            cursor: pointer;
         }
-
-        .image-container {
-          height: 100%;
-          margin: 0;
-          display: flex;
-          justify-content: center; 
-          align-items: center; 
-  }
-
-        P{
-          text-align: center;
-          color: black;
-        }
-        
-
-        .below{
-          background-color: pink;
-        }
-
-
 
     </style>
-</head>
 
-<body>
+  <section class="py-5 text-center container">
+    <div class="step">
+        <h1>Meet Our Cats!</h1>
+        <p>Step into the cozy world of our cat cafe and meet our adorable, adoptable cats! Browse profiles, enjoy cute pictures, and learn the unique stories of our feline friends. Your purr-fect companion is just a click away. Begin your journey to feline companionship right here at our cat cafe!</p>
+    </div>
+  </section>
 
-<!-- <div class="image-container">
-  <h1>Drink Menu</h1>
-  <p>Enjoy our handcrafted beverages and treats while you cuddle up next to our adoptable cats!</p>
-</div> -->
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
 
-<!-- <section class="sec">
-  <div class="top">
-      <h1>Meet Our Cats!</h1>
-      <p>Step into the cozy world of our cat cafe and meet our adorable, adoptable cats! Browse profiles, enjoy cute pictures, and learn the unique stories of our feline friends. Your purr-fect companion is just a click away. Begin your journey to feline companionship right here at our cat cafe!</p>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+
+        <div class="col-lg-4">
+            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+            <img src="./images/cat1.jpg" alt="cat 1">
+            <h2 class="fw-normal">Ry</h2>
+            <p>Ry is a majestic cat with a coat that shimmers like silk. This regal feline combines elegance with a playful spirit, making him the perfect companion for those who appreciate a touch of royalty and a dash of mischievous charm. If you're ready to invite a majestic mischief maker into your home, Ry is waiting to reign over your heart.</p>
+            <p><a class="button" href="#">Adopt Me &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+            <img src="./images/pexels-zetong-li-18414753.jpg" alt="cat ">
+            <h2 class="fw-normal">Scarlett</h2>
+            <p>Scarlett is a vibrant cat with an adventurous spirit. Always ready for playtime, this energetic gal loves chasing feather toys and exploring every nook and cranny. If you're looking for a lively companion who will keep you entertained, Scarlett is the perfect match.</p>         
+            <p><a class="button" href="#">Adopt Me &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+            <img src="./images/cat3.jpg" alt="cat 3">
+            <h2 class="fw-normal">Mini</h2>
+            <p>Mini is a shy friend with a big heart. She's a true cuddle enthusiast, always ready to provide warmth and comfort. If you're in search of a quiet furry friend who excels in the art of snuggling, look no further than Mini</p>
+            <p><a class="button" href="#">Adopt Me &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+            <img src="./images/pexels-david-yu-10914514.jpg" alt="cat 4">
+            <h2 class="fw-normal">David</h2>
+            <p>David is a cat on a mission to spread joy with his playful antics and rhythmic purring. With a mischievous glint in his eye, David is always up for a game or a cuddle session. If you're looking for a bundle of playful energy, David is the purrfect choice.</p>
+            <p><a class="button" href="#">Adopt Me &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+            <img src="./images/pexels-raymart-fadriquela-15236914.jpg" alt="cat 5">
+            <h2 class="fw-normal">Hedwig</h2>
+            <p>Meet Hedwig, a cat with a mysterious allure and poise. This enigmatic charmer loves to find cozy spots for solitude, making him an ideal companion for quiet evenings and thoughtful moments</p>
+            <p><a class="button" href="#">Adopt Me &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+            <img src="./images/pexels-swapnil-kulkarni-8861204.jpg" alt="cat 6">
+            <h2 class="fw-normal">Milo</h2>
+            <p>Milo is a fearless explorer with a rugged charm that sets him apart. This adventurous cat loves climbing, discovering hidden corners, and keeping a watchful eye on his surroundings. If you're seeking a companion for your own exciting journey, Milo is ready to be your steadfast sidekick</p>
+            <p><a class="button" href="#">Adopt Me &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+
+
+        </div>
+      </div>
+    </div>
   </div>
-</section> -->
 
-<section class="intro-container">
-  <div class="intro">
-    <h1><strong>Welcome!</strong></h1>
-  </div>
-</section>
+</main>
 
-<section class="image-container">
-<div class="image-container">
-  <img src="./catcafe" alt="Whiskers And Brews">
-</div>
-</section>
-
-<div class="album py-5 bg-body-tertiary">
-  <div class="container">
-    <p>Step into the cozy world of our cat cafe and meet our adorable, adoptable cats! Browse profiles, enjoy cute pictures, and learn the unique stories of our feline friends. Your purr-fect companion is just a click away. Begin your journey to feline companionship right here at our cat cafe!</p>
-  </div>
-</div>
-
-</body>
-</html>
 <footer class="text-body-secondary py-5">
   <div class="container">
     <p class="float-end mb-1">
       <a href="#">Back to top</a>
     </p>
-    
     <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
     <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
-    <a href="https://www.freepik.com/free-vector/cute-cat-lay-with-coffee-cartoon-vector-icon-illustration-animal-drink-icon-concept-isolated-flat_66605908.htm#query=cat%20drinking%20coffee&position=10&from_view=keyword&track=ais&uuid=f0f1a70b-23ea-4997-8093-aaf072b5cc1c">Image by catalyststuff</a> on Freepik
   </div>
 </footer>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
@@ -229,14 +225,7 @@
     
   });
 
-  // Add an event listener to the "cats" link
-  document.querySelector('a[href="cats.html"]').addEventListener('click', function(event) {
-    // Prevent the default action of the link
-    event.preventDefault();
-    // Navigate to about.html
-    window.location.href = 'cats.html';
-    
-  });
+
 
    // Add an event listener to the "menu" link
    document.querySelector('a[href="menu.html"]').addEventListener('click', function(event) {
