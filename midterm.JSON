@@ -1,0 +1,46 @@
+{
+    "menu": {
+      "categories": [
+        {
+          "category_name": "Drink Menu",
+          "items": [
+            {
+              "name": "Meowcha Matcha",
+              "description": "Delicious oat milk matcha over ice, served with vanilla sweet cream cold foam.",
+              "price": "$4.99"
+            },
+            {
+              "name": "Catnip Cooler",
+              "description": "Refreshing iced tea infused with mint and a hint of lemon.",
+              "price": "$3.99"
+            },
+            {
+              "name": "Tuxedo Tea Latte",
+              "description": "Start with chai concentrate and milk, froth in heavy cream and sprinkle with cinnamon. Served in a custom tuxedo mug based on Tuxedo man from Sailor Moon.",
+              "price": "$8.99"
+            },
+            {
+              "name": "Pawfee Delight",
+              "description": "Three shots of espresso with your choice of milk, sweetened with white chocolate syrup and topped with marshmallows.",
+              "price": "$5.99"
+            }
+          ]
+        },
+        {
+          "category_name": "Baked Delights",
+          "items": [
+            {
+              "name": "Kitty Krispy",
+              "description": "Homemade rice crispy treat with frosted whisker design",
+              "price": "$2.99"
+            },
+            {
+              "name": "Tabby Cat Scones",
+              "description": "Your choice of scone, including lemon poppy seed, blueberry, and pumpkin.",
+              "price": "$2.99"
+            }
+          ]
+        }
+      ]
+    }
+  }
