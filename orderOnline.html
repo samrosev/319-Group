@@ -4,13 +4,69 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Online Ordering System</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #eec0c0;
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    .menu-category {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .menu-category h2 {
+        margin-top: 0;
+        color: #333;
+    }
+
+    .menu-category p {
+        color: #666;
+    }
+
+    .menu-item {
+        margin-bottom: 10px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 200px;
+        height: auto;
+        margin: 5px;
+    }
+</style>
 </head>
 <body>
-  <h1>Menu</h1>
-  <div id="menu"></div>
-  <h2>Order Summary</h2>
-  <ul id="orderSummary"></ul>
-  <button onclick="submitOrder()">Submit Order</button>
+  <main>
+    <h1>Menu</h1>
+    <div id="menu" class="menu-container"></div>
+    <h2>Order Summary</h2>
+    <ul id="orderSummary"></ul>
+    <button onclick="submitOrder()">Submit Order</button>
+  </main>
 
   <script src="order.js"></script>
 </body>
