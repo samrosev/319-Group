@@ -47,32 +47,49 @@
       {
         "name": "Ry",
         "description": "Ry is a majestic cat with a coat that shimmers like silk. This regal feline combines elegance with a playful spirit, making him the perfect companion for those who appreciate a touch of royalty and a dash of mischievous charm. If you're ready to invite a majestic mischief maker into your home, Ry is waiting to reign over your heart.",
-        "age": 3
+        "age": 3,
+        "gender": "male",
+        "url": "https://images.pexels.com/photos/16577560/pexels-photo-16577560/free-photo-of-cat-lying-down.jpeg?auto=compress&cs=tinysrgb&w=400"
       },
       {
         "name": "Scarlett",
         "description": "Scarlett is a vibrant cat with an adventurous spirit. Always ready for playtime, this energetic gal loves chasing feather toys and exploring every nook and cranny. If you're looking for a lively companion who will keep you entertained, Scarlett is the perfect match.",
-        "age": 2
+        "age": 1,
+        "gender": "female",
+        "url": "https://images.pexels.com/photos/18414753/pexels-photo-18414753/free-photo-of-a-kitten-sleeping-on-a-blanket-with-its-eyes-closed.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
       },
       {
         "name": "Mini",
         "description": "Mini is a shy friend with a big heart. She's a true cuddle enthusiast, always ready to provide warmth and comfort. If you're in search of a quiet furry friend who excels in the art of snuggling, look no further than Mini",
-        "age": 5
+        "age": 5,
+        "gender": "female",
+        "url": "https://images.freeimages.com/images/large-previews/bd1/cat-1404368.jpg?fmt=webp&h=350"
+
       },
       {
         "name": "David",
         "description": "David is a cat on a mission to spread joy with his playful antics and rhythmic purring. With a mischievous glint in his eye, David is always up for a game or a cuddle session. If you're looking for a bundle of playful energy, David is the purrfect choice.",
-        "age": 1
+        "age": 1,
+        "gender": "male",
+        "url": "https://images.pexels.com/photos/10914514/pexels-photo-10914514.jpeg"
+
       },
       {
         "name": "Hedwig",
         "description": "Meet Hedwig, a cat with a mysterious allure and poise. This enigmatic charmer loves to find cozy spots for solitude, making him an ideal companion for quiet evenings and thoughtful moments",
-        "age": 4
+        "age": 4,
+        "gender": "male",
+        "url": "https://images.pexels.com/photos/15011316/pexels-photo-15011316/free-photo-of-a-cat-lying-on-woven-chair-with-cushion.png?auto=compress&cs=tinysrgb&w=400"
+
       },
       {
         "name": "Milo",
         "description": "Milo is a fearless explorer with a rugged charm that sets him apart. This adventurous cat loves climbing, discovering hidden corners, and keeping a watchful eye on his surroundings. If you're seeking a companion for your own exciting journey, Milo is ready to be your steadfast sidekick",
-        "age": 6
+        "age": 6,
+        "gender": "male",
+        "url": "https://images.pexels.com/photos/8861204/pexels-photo-8861204.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
       }
     ]
   }
