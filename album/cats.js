@@ -16,9 +16,13 @@ document.addEventListener("DOMContentLoaded", function() {
           itemDiv.innerHTML = `
             <p><strong>${cat.name}</strong> - ${cat.age} year old ${cat.gender}</p>
             <img src=${cat.url}/>
-            
+
             <p></p>
-            <button onclick="learnMore('${cat.name}', '${cat.description}','${cat.age}')">Learn More</button>
+            
+            <a id=redirect href="learnMore.html" target="_blank">
+                <button>Learn More</button>
+            </a>
+
           `;
           catContainer.appendChild(itemDiv);
         });
@@ -27,4 +31,20 @@ document.addEventListener("DOMContentLoaded", function() {
         //catContainer.appendChild(categoryDiv);
     
     }
+
+    function learnMore(){
+    //     <a id=redirect href="learnMore.html" target="_blank">
+    //     <button>Learn More</button>
+    // </a>
+    }
+
+
+    // function addToOrder(name, price) {
+    //     const orderSummary = document.getElementById('orderSummary');
+    //     const listItem = document.createElement('li');
+    //     listItem.textContent = `${name} - ${price}`;
+    //     orderSummary.appendChild(listItem);
+    //   }
+    //            <p></p>
+    //<button onclick="learnMore()">Learn More</button>
 });
