@@ -135,15 +135,34 @@
     </header>
   <main>
     <h1>Meet Our Cats!</h1>
-    <div class="step"
+    <div class="step">
         <h2>Step into the cozy world of our cat cafe and meet our adorable, adoptable cats! Browse profiles, enjoy cute pictures, and learn the unique stories of our feline friends. Your purr-fect companion is just a click away. Begin your journey to feline companionship right here at our cat cafe!</h2>
-  </div>
+    </div>
     <div id="cats" class="cat-container"></div>
-    <!-- <ul id="orderSummary"></ul> -->
-    <!-- <button onclick="submitOrder()">Submit Order</button> -->
-
+    <!-- Donation Form -->
+    <div class="donation-form">
+        <h2>Donation Form</h2>
+        <form id="donationForm">
+            <label for="catSelect">Select a Cat:</label>
+            <select id="catSelect" name="catName" required>
+                <option value="" disabled selected>Select a cat</option>
+                <!-- Options will be populated dynamically -->
+            </select>
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" name="amount" placeholder="Enter donation amount" min="1" required>
+            <label for="paymentMethod">Payment Method:</label>
+            <select id="paymentMethod" name="paymentMethod" required>
+                <option value="" disabled selected>Select payment method</option>
+                <option value="credit_card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank_transfer">Bank Transfer</option>
+            </select>
+            <button type="submit">Submit Donation</button>
+        </form>
+    </div>
   </main>
 
   <script src="cats.js"></script>
+  <script src="donation.js"></script>
 </body>
 </html>
