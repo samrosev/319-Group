@@ -16,12 +16,12 @@ document.addEventListener("DOMContentLoaded", function() {
           itemDiv.innerHTML = `
             <p><strong>${cat.name}</strong> - ${cat.age} year old ${cat.gender}</p>
             <img src=${cat.url}/>
-
+            <p>${cat.description}</p
+            
             <p></p>
             
-            <a id=redirect href="learnMore.html" target="_blank">
-                <button>Learn More</button>
-            </a>
+            <button>Adopt Me!</button>
+            <hr class="dashed">
 
           `;
           catContainer.appendChild(itemDiv);
@@ -29,6 +29,9 @@ document.addEventListener("DOMContentLoaded", function() {
   
         //<p>${cat.description}</p>
         //catContainer.appendChild(categoryDiv);
+        //<a id=redirect href="learnMore.html" target="_blank">
+        //<button>Learn More</button>
+      //</a>
     
     }
 
