@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch JSON data
-    fetch("midterm.json")
+    fetch("data.json")
       .then(response => response.json())
       .then(data => displayMenu(data.cats))
       .catch(error => console.error("Error fetching JSON:", error));
