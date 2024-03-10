@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
       category.items.forEach(item => {
         const itemDiv = document.createElement('div');
         itemDiv.innerHTML = `
+          <img src="${item.image_url}" alt="${item.name}" style="max-width: 200px; max-height: 200px;">
           <p><strong>${item.name}</strong></p>
           <p>${item.description}</p>
           <p>Price: ${item.price}</p>
@@ -58,9 +59,6 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     }
   }
-
-
-
 
   // Function to submit order
   function submitOrder() {

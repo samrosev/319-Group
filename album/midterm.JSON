@@ -1,95 +1,101 @@
 {
-    "menu": {
-      "categories": [
-        {
-          "category_name": "Drink Menu",
-          "items": [
-            {
-              "name": "Meowcha Matcha",
-              "description": "Delicious oat milk matcha over ice, served with vanilla sweet cream cold foam.",
-              "price": "$4.99"
-            },
-            {
-              "name": "Catnip Cooler",
-              "description": "Refreshing iced tea infused with mint and a hint of lemon.",
-              "price": "$3.99"
-            },
-            {
-              "name": "Tuxedo Tea Latte",
-              "description": "Start with chai concentrate and milk, froth in heavy cream and sprinkle with cinnamon.",
-              "price": "$3.99"
-            },
-            {
-              "name": "Pawfee Delight",
-              "description": "Three shots of espresso with your choice of milk, sweetened with white chocolate syrup and topped with marshmallows.",
-              "price": "$5.99"
-            }
-          ]
-        },
-        {
-          "category_name": "Baked Delights",
-          "items": [
-            {
-              "name": "Kitty Krispy",
-              "description": "Homemade rice crispy treat with frosted whisker design",
-              "price": "$2.99"
-            },
-            {
-              "name": "Tabby Cat Scones",
-              "description": "Your choice of scone, including lemon poppy seed, blueberry, and pumpkin.",
-              "price": "$2.99"
-            }
-          ]
-        }
-      ]
-    },
-    "cats": [
+  "menu": {
+    "categories": [
       {
-        "name": "Ry",
-        "description": "Ry is a majestic cat with a coat that shimmers like silk. This regal feline combines elegance with a playful spirit, making him the perfect companion for those who appreciate a touch of royalty and a dash of mischievous charm. If you're ready to invite a majestic mischief maker into your home, Ry is waiting to reign over your heart.",
-        "age": 3,
-        "gender": "male",
-        "url": "https://images.pexels.com/photos/16577560/pexels-photo-16577560/free-photo-of-cat-lying-down.jpeg?auto=compress&cs=tinysrgb&w=400"
+        "category_name": "Drink Menu",
+        "items": [
+          {
+            "name": "Meowcha Matcha",
+            "description": "Delicious oat milk matcha over ice, served with vanilla sweet cream cold foam.",
+            "price": "$4.99",
+            "image_url": "https://images.pexels.com/photos/5946972/pexels-photo-5946972.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Catnip Cooler",
+            "description": "Refreshing iced tea infused with mint and a hint of lemon.",
+            "price": "$3.99",
+            "image_url": "https://images.pexels.com/photos/1141626/pexels-photo-1141626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "name": "Tuxedo Tea Latte",
+            "description": "Start with chai concentrate and milk, froth in heavy cream and sprinkle with cinnamon.",
+            "price": "$3.99",
+            "image_url": "https://images.pexels.com/photos/5946623/pexels-photo-5946623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "name": "Pawfee Delight",
+            "description": "Three shots of espresso with your choice of milk, sweetened with white chocolate syrup and topped with marshmallows.",
+            "price": "$5.99",
+            "image_url": "https://images.pexels.com/photos/3551717/pexels-photo-3551717.png?auto=compress&cs=tinysrgb&w=600"
+          }
+        ]
       },
       {
-        "name": "Scarlett",
-        "description": "Scarlett is a vibrant cat with an adventurous spirit. Always ready for playtime, this energetic gal loves chasing feather toys and exploring every nook and cranny. If you're looking for a lively companion who will keep you entertained, Scarlett is the perfect match.",
-        "age": 1,
-        "gender": "female",
-        "url": "https://images.pexels.com/photos/18414753/pexels-photo-18414753/free-photo-of-a-kitten-sleeping-on-a-blanket-with-its-eyes-closed.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
-      },
-      {
-        "name": "Mini",
-        "description": "Mini is a shy friend with a big heart. She's a true cuddle enthusiast, always ready to provide warmth and comfort. If you're in search of a quiet furry friend who excels in the art of snuggling, look no further than Mini",
-        "age": 5,
-        "gender": "female",
-        "url": "https://images.freeimages.com/images/large-previews/bd1/cat-1404368.jpg?fmt=webp&h=350"
-
-      },
-      {
-        "name": "David",
-        "description": "David is a cat on a mission to spread joy with his playful antics and rhythmic purring. With a mischievous glint in his eye, David is always up for a game or a cuddle session. If you're looking for a bundle of playful energy, David is the purrfect choice.",
-        "age": 1,
-        "gender": "male",
-        "url": "https://images.pexels.com/photos/10914514/pexels-photo-10914514.jpeg"
-
-      },
-      {
-        "name": "Hedwig",
-        "description": "Meet Hedwig, a cat with a mysterious allure and poise. This enigmatic charmer loves to find cozy spots for solitude, making him an ideal companion for quiet evenings and thoughtful moments",
-        "age": 4,
-        "gender": "male",
-        "url": "https://images.pexels.com/photos/15011316/pexels-photo-15011316/free-photo-of-a-cat-lying-on-woven-chair-with-cushion.png?auto=compress&cs=tinysrgb&w=400k"
-
-      },
-      {
-        "name": "Milo",
-        "description": "Milo is a fearless explorer with a rugged charm that sets him apart. This adventurous cat loves climbing, discovering hidden corners, and keeping a watchful eye on his surroundings. If you're seeking a companion for your own exciting journey, Milo is ready to be your steadfast sidekick",
-        "age": 6,
-        "gender": "male",
-        "url": "https://images.pexels.com/photos/8861204/pexels-photo-8861204.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
+        "category_name": "Baked Delights",
+        "items": [
+          {
+            "name": "Kitty Krispy",
+            "description": "Homemade rice crispy treat with frosted whisker design",
+            "price": "$2.99",
+            "image_url": "https://media.istockphoto.com/id/1412408164/photo/rice-krispies-with-topping-coconut-sugar-sauce-on-tray.jpg?s=612x612&w=is&k=20&c=4fTMzW9ijyPj6FzUUPry1kCwm4pnZrxEe5wA1LIdD50="
+          },
+          {
+            "name": "Tabby Cat Scones",
+            "description": "Your choice of scone, including lemon poppy seed, blueberry, and pumpkin.",
+            "price": "$2.99",
+            "image_url": "https://media.istockphoto.com/id/1302833389/photo/blueberry-scones.jpg?s=612x612&w=is&k=20&c=A1xuRH_2dapS-RpQ0Epo7xGMb3peTymTKOD9u1_Zmp0="
+          }
+        ]
       }
     ]
-  }
+  },
+  "cats": [
+    {
+      "name": "Ry",
+      "description": "Ry is a majestic cat with a coat that shimmers like silk. This regal feline combines elegance with a playful spirit, making him the perfect companion for those who appreciate a touch of royalty and a dash of mischievous charm. If you're ready to invite a majestic mischief maker into your home, Ry is waiting to reign over your heart.",
+      "age": 3,
+      "gender": "male",
+      "url": "https://images.pexels.com/photos/16577560/pexels-photo-16577560/free-photo-of-cat-lying-down.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Scarlett",
+      "description": "Scarlett is a vibrant cat with an adventurous spirit. Always ready for playtime, this energetic gal loves chasing feather toys and exploring every nook and cranny. If you're looking for a lively companion who will keep you entertained, Scarlett is the perfect match.",
+      "age": 1,
+      "gender": "female",
+      "url": "https://images.pexels.com/photos/18414753/pexels-photo-18414753/free-photo-of-a-kitten-sleeping-on-a-blanket-with-its-eyes-closed.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+    },
+    {
+      "name": "Mini",
+      "description": "Mini is a shy friend with a big heart. She's a true cuddle enthusiast, always ready to provide warmth and comfort. If you're in search of a quiet furry friend who excels in the art of snuggling, look no further than Mini",
+      "age": 5,
+      "gender": "female",
+      "url": "https://images.freeimages.com/images/large-previews/bd1/cat-1404368.jpg?fmt=webp&h=350"
+
+    },
+    {
+      "name": "David",
+      "description": "David is a cat on a mission to spread joy with his playful antics and rhythmic purring. With a mischievous glint in his eye, David is always up for a game or a cuddle session. If you're looking for a bundle of playful energy, David is the purrfect choice.",
+      "age": 1,
+      "gender": "male",
+      "url": "https://images.pexels.com/photos/10914514/pexels-photo-10914514.jpeg"
+
+    },
+    {
+      "name": "Hedwig",
+      "description": "Meet Hedwig, a cat with a mysterious allure and poise. This enigmatic charmer loves to find cozy spots for solitude, making him an ideal companion for quiet evenings and thoughtful moments",
+      "age": 4,
+      "gender": "male",
+      "url": "https://images.pexels.com/photos/15011316/pexels-photo-15011316/free-photo-of-a-cat-lying-on-woven-chair-with-cushion.png?auto=compress&cs=tinysrgb&w=400k"
+
+    },
+    {
+      "name": "Milo",
+      "description": "Milo is a fearless explorer with a rugged charm that sets him apart. This adventurous cat loves climbing, discovering hidden corners, and keeping a watchful eye on his surroundings. If you're seeking a companion for your own exciting journey, Milo is ready to be your steadfast sidekick",
+      "age": 6,
+      "gender": "male",
+      "url": "https://images.pexels.com/photos/8861204/pexels-photo-8861204.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+    }
+  ]
+}
